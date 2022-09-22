@@ -1,5 +1,5 @@
 # Splicing factor BUD31 promotes ovarian cancer progression through sustaining the expression of anti-apoptotic BCL2L12
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.7102598.svg "DOI")](https://zenodo.org/badge/latestdoi/404933956)
+[![DOI](https://zenodo.org/badge/404933956.svg)](https://zenodo.org/badge/latestdoi/404933956)
 
 Custom code and analysis pipelines used in the paper are shown in markdown files.
 - **AS_pipeline.md**
