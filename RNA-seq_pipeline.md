@@ -21,11 +21,11 @@ trim_galore -q 20 --phred33 --stringency 3 --length 20 -e 0.1 \
 Batch processing
 
 ``` shell
-cd /home/wzx/workdir
+cd /home/wzx/project4t/PRJNA730205_Cell-Cell_EphB1_LYW_20220920/raw
 ls *.fastq.gz | while read id ; do (   \
 trim_galore -q 20 --phred33 --stringency 3 --length 20 -e 0.1 \
-            /home/wzx/workdir/Samples.fastq.gz  \
-            --gzip -o /home/wzx/outputdir/cleanfolder \
+            ./$id  \
+            --gzip -o ../clean \
 ); done
 ```
 
